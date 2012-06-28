@@ -10,7 +10,7 @@ define('VERSION','1.6.3');
 // 载入配置文件：数据库、url路由等等 
 require(APP.'config.php');
 
-// 如果配置了数据库则载入
+// 如果配置了数据库则载
 if(isset($db_config)) $db = new db($db_config);
 
 // 获取请求的地址兼容 SAE
